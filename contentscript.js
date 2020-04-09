@@ -1,0 +1,1 @@
+var $txt = $(':focus');var caretPos = $txt[0].selectionStart;var textAreaTxt = $txt.val();var txtToAdd = topaste;$txt.val(textAreaTxt.substring(0, caretPos) + txtToAdd + textAreaTxt.substring(caretPos) );

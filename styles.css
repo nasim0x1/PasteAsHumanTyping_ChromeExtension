@@ -1,0 +1,221 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+.mdl-layout__content{
+  /* overflow-y: hidden !important; */
+}
+
+form{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+      display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/iconfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(/assets/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(/assets/iconfont/MaterialIcons-Regular.woff) format('woff'),
+       url(/assets/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+.mdl-list__item{
+  border-bottom: solid 1px LightGray;
+  padding: 5px;
+}
+.demo-list-item {
+  width: 80%
+  /*padding-left:5%;*/
+}
+/* ::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;
+}
+::-moz-placeholder {
+   font-style: italic;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+} */
+#addbutton{
+    position: absolute;
+    right: 5%;
+    /* top: 5%; */
+    top: 19px;
+    width: 30px;
+    min-width: 0;
+    height: 30px;
+    color: #688795;
+    cursor: pointer;
+}
+.mdl-textfield__input{
+  margin-left: 5%;
+  width: 70% !important;
+  outline: none;
+}
+.mdl-textfield__label{
+   margin-left: 5%;
+  width: 70%;
+}
+#add{
+  width: 100%;
+}
+.mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header{
+  margin-left: 0;
+  width: 100%;
+}
+.mdl-layout--fixed-drawer>.mdl-layout__content{
+  margin-left: 0;
+  width: 100%;
+}
+hr{
+  margin: 0;
+}
+.demo-list-control {
+  width: 90%
+}
+
+.demo-list-radio {
+  display: inline;
+}
+.demo-list-control .mdl-list{
+  padding: 5%;
+}
+#copier{
+  /*visibility: hidden;*/
+  position: absolute;
+  bottom: 0;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: default;
+  z-index: -1;
+}
+::selection {
+  background: white /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: white /* Gecko Browsers */
+}
+ul{
+  padding-left: 5%;
+}
+ body{
+    background-color: #FAFAFA;
+    width: 400px;
+    height: 500px;
+  }
+  .mdl-list__item-primary-content{
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .mdl-layout__header{
+    background: white;
+    color: #30576a;
+  }
+  .mdl-button--fab.mdl-button--colored {
+    background: #2892c5;
+
+    /* width: 20px; */
+  }
+  .mdl-button--fab.mdl-button--colored:hover {
+    background: #2c88b4;
+  }
+  .mdl-list__item{
+    min-height: 38px;
+    font-size: 14px;
+    padding:0;
+    padding-left: 0px;
+  }
+  ul .mdl-button .material-icons.copy{
+    color:#2892c5;
+  }
+  ul .mdl-button .material-icons.delete{
+    color: #5ba4c6;
+  }
+  .mdl-layout__header-row{
+    height: 50px !important;
+  }
+  .mdl-layout__header{
+      height: 50px !important;
+      min-height: 50px !important;
+  }
+#copy{
+  margin: 0 auto;
+  width: 90%;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid #FAFAFA;
+  /* border-bottom: 1px solid #2892c5; */
+  outline: none;
+background: #ced9ec;
+}
+#copy::selection{
+  border: none;
+}
+#copyDiv{
+  margin: 0 auto;
+}
+#header{
+  margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: left;
+    color: #0f6e9a;
+    font-size: 17px;
+    background: white;
+    box-shadow: 2px 2px 3px #b0b0b0;
+
+}
+
+#money, #feedback {
+  float: right;
+  margin-right: 10px;
+  cursor:pointer;
+}
+#money{
+  color: orange;
+  margin-bottom: 3px;
+}

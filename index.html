@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Human Typing</title>
+<link rel="stylesheet" href="MDL/material.min.css">
+<script src="MDL/material.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- header -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+            mdl-layout--fixed-header">
+ 
+<h6 id='header'><img src='assets/icon_128_mc.png' style='width:25px;'> &nbsp Clipboard</h6>
+  <main class="mdl-layout__content">
+
+    
+    <div id='copyDiv'><center>
+    <input type='text' id='copy' placeholder="Add Copy" />
+
+  <i class="material-icons" id='addbutton'>add</i>
+</center>
+</div>
+
+
+<ul class="demo-list-control mdl-list" id='list'>
+  <hr>
+</ul>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<input type='text' id='copier'>
+  </main>
+</div>
+<script src="jquery-3.2.0.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
